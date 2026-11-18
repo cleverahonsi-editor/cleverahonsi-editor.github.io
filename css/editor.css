@@ -1,0 +1,27 @@
+/* Editor-site additions on top of site.css */
+.reel { position: relative; display: block; width: 100%; padding: 0; border: 0; cursor: zoom-in; overflow: hidden;
+  aspect-ratio: 16 / 9; background: #1c1b1c; border-radius: var(--r-lg); box-shadow: var(--shadow-tile); }
+.reel img, .reel video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.reel video { opacity: 0; transition: opacity .35s var(--ease-out); }
+.reel.is-playing video { opacity: 1; }
+.reel .dur { position: absolute; left: 16px; bottom: 16px; z-index: 2; display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 14px; border-radius: 999px; background: rgba(18,17,18,.66); color: #fff; backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); font: 500 .84rem/1 var(--display); }
+.reel .dur svg { width: 10px; height: 10px; fill: currentColor; }
+
+.card[hidden] { display: none; }
+.mini { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 12px 0 0; }
+.mini li { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: .74rem; color: var(--text); background: #fff; }
+.grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
+.card .tile { --ar: 16 / 10; }
+@media (hover: hover) and (pointer: fine) { .tile:hover .dur { background: rgba(18,17,18,.8); } }
+button.tile { font: inherit; }
+
+.lb-media { height: auto; width: auto; }
+.lb-stage .lb-media { max-height: 100%; max-width: 100%; }
+.lb-info { align-items: start; }
+.lb-tools ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; font-size: .88rem; color: var(--on-dark-muted); }
+.lb-tools b { color: var(--on-dark); font-weight: 600; }
+.lb-tools .lb-meta { display: block; color: var(--accent-soft); }
+.lb-bar .lb-nav { margin-left: auto; }
+.lb-bar .lb-close { margin-left: 0; }
