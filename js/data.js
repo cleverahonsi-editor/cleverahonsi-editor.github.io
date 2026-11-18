@@ -68,7 +68,7 @@ window.WORKS = [
   /* ---------- Gaming channel: shorts (9:16) ---------- */
   {
     id: "short-quit", title: "They Tried to QUIT Three Times", client: "",
-    tags: ["short", "gaming"], format: "9:16 · 1080p", dur: 56, vertical: true,
+    tags: ["short", "gaming"], format: "9:16", dur: 56, vertical: true,
     role: "Short-form edit, captions",
     blurb: "A 56-second Among Us story built on a hook line and word-by-word captions that land on the beat. A mascot reacts, meme and game cutaways keep every second moving, and the loop ends on a clear call to action.",
     tools: [
@@ -78,7 +78,7 @@ window.WORKS = [
   },
   {
     id: "short-flappy", title: "Why He DELETED His Hit Game", client: "",
-    tags: ["short", "gaming"], format: "9:16 · 1080p", dur: 54, vertical: true,
+    tags: ["short", "gaming"], format: "9:16", dur: 54, vertical: true,
     role: "Short-form edit, captions",
     blurb: "The Flappy Bird story in under a minute. The \"he gave up $50k a day\" hook stays on screen while gameplay and a perfectly timed meme insert carry the pace.",
     tools: [
@@ -88,7 +88,7 @@ window.WORKS = [
   },
   {
     id: "short-gandhi", title: "The truth about NUCLEAR Gandhi", client: "",
-    tags: ["short", "gaming"], format: "9:16 · 1080p", dur: 51, vertical: true,
+    tags: ["short", "gaming"], format: "9:16", dur: 51, vertical: true,
     role: "Short-form edit, captions",
     blurb: "A myth-busting short that opens with \"The internet got this wrong\" and keeps proof on screen: game footage, atmospheric cutaways and highlighted keywords that guide the eye.",
     tools: [
@@ -98,7 +98,7 @@ window.WORKS = [
   },
   {
     id: "short-ps5", title: "The PS5 Hack With a HUGE Catch", client: "",
-    tags: ["short", "gaming"], format: "9:16 · 1080p", dur: 51, vertical: true,
+    tags: ["short", "gaming"], format: "9:16", dur: 51, vertical: true,
     role: "Short-form edit, captions",
     blurb: "A news-style short with a decision hook (\"Keep the hack or play GTA 6?\"), split-screen gameplay and a fast cut rhythm that never lets the caption line go stale.",
     tools: [
@@ -108,7 +108,7 @@ window.WORKS = [
   },
   {
     id: "short-atari", title: "They Buried It in the DESERT", client: "",
-    tags: ["short", "gaming"], format: "9:16 · 1080p", dur: 51, vertical: true,
+    tags: ["short", "gaming"], format: "9:16", dur: 51, vertical: true,
     role: "Short-form edit, captions",
     blurb: "The Atari E.T. landfill story as a 51-second short, mixing archive news footage, a Spielberg cutaway and a Futurama meme, all under bold highlighted captions.",
     tools: [
@@ -120,7 +120,7 @@ window.WORKS = [
   /* ---------- Gaming channel: long-form (16:9) ---------- */
   {
     id: "long-atari", title: "The Atari E.T. Game Buried in the Desert Was REAL", client: "",
-    tags: ["long", "gaming"], format: "16:9 · 1080p", dur: 338, vertical: false,
+    tags: ["long", "gaming"], format: "16:9", dur: 338, vertical: false,
     role: "Long-form edit, motion graphics",
     blurb: "A five-and-a-half-minute documentary on the landfill dig. It uses chapter title cards, archive footage, on-screen document and inventory overlays, and clean subtitles so the story stays easy to follow from start to finish.",
     tools: [
@@ -131,7 +131,7 @@ window.WORKS = [
   },
   {
     id: "long-pacman", title: "Pac-Man's Ghosts Were NEVER Just Chasing You", client: "",
-    tags: ["long", "gaming"], format: "16:9 · 1080p", dur: 323, vertical: false,
+    tags: ["long", "gaming"], format: "16:9", dur: 323, vertical: false,
     role: "Long-form edit, motion graphics",
     blurb: "A deep dive into ghost behaviour, with gameplay recorded and cropped to show each ghost's path, an interview with the creator, a chapter card for \"the level nobody was supposed to reach\" and an animated stat for the 3,333,360-point perfect game.",
     tools: [
@@ -141,7 +141,7 @@ window.WORKS = [
   },
   {
     id: "long-bioware", title: "Did Wokeness Kill BioWare From KOTOR to Shutdown", client: "",
-    tags: ["long", "gaming"], format: "16:9 · 1080p", dur: 373, vertical: false,
+    tags: ["long", "gaming"], format: "16:9", dur: 373, vertical: false,
     role: "Long-form edit, graphics",
     blurb: "A six-minute retrospective that opens on a \"BioWare 1995–2026\" title, then moves through game footage, news clips, interviews and awards graphics, with subtitles and a mascot that keeps a long script lively.",
     tools: [
